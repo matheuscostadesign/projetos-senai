@@ -1,7 +1,7 @@
 # Desenvolvimento Web (Senai-SP)
 
+<a href="https://www.youtube.com/watch?v=qD3rcJIyoWQ&">Curso Técnico de Informática para Internet | Desenvolvimento Web Fullstack | SENAI SP</a>
+
 - Repositório para atividades e projetos do curso de desenvolvimento web do Senai/SP de São José do Rio Preto
 
-<img src=".github/curso.png" alt="Curso Desenvolvimento Web Senai" width="600">
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qD3rcJIyoWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<img src=".github/curso.png" alt="Curso Desenvolvimento Web Senai" width="700">
