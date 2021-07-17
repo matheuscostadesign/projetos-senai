@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  background-color: #f7f7f7;
+}
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+}
+
+table {
+  width: 996px;
+  height: 616px;
+}
+
+table, th, td, caption {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 5px;
+}
