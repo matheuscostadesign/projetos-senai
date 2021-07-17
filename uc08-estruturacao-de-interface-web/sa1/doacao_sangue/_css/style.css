@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  margin: 0 auto;
+  max-width: 1120px;
+}
+
+h1 {
+  text-align: left;
+  font-size: 60px;
+  color: #e23941;
+  margin-bottom: 0;
+}
+
+.imagem {
+  text-align: center;
+}
+
+.imagem img {
+  width: 250px;
+  height: 250px;
+}
+
+h3 {
+  font-size: 32px;
+  color: #e23941;
+}
