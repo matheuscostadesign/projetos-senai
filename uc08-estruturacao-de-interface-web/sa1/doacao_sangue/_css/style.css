@@ -26,3 +26,7 @@ h3 {
   font-size: 32px;
   color: #e23941;
 }
+
+ol li {
+  margin-bottom: 8px;
+}
