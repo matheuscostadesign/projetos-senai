@@ -6,4 +6,6 @@
 
 - Repositório para atividades e projetos do curso de desenvolvimento web do Senai/SP de São José do Rio Preto
 
+- Aluno: Matheus Costa dos Santos
+
 <a href="https://inscricao-tecnico.sp.senai.br/"><img src=".github/curso.png" alt="Curso Desenvolvimento Web Senai" width="700"></a>
