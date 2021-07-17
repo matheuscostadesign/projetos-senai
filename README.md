@@ -4,7 +4,9 @@
 
 <a href="https://www.youtube.com/watch?v=qD3rcJIyoWQ&">Curso Técnico de Informática para Internet | Desenvolvimento Web Fullstack | SENAI SP</a>
 
-- Repositório para atividades e projetos do curso de desenvolvimento web do Senai/SP de São José do Rio Preto
+- Repositório para atividades e projetos do curso de desenvolvimento web do
+
+- Escola Senai "Antonio Devisate" de São José do Rio Preto/SP
 
 - Aluno: Matheus Costa dos Santos
 
