@@ -11,3 +11,14 @@
 - Aluno: Matheus Costa dos Santos
 
 <a href="https://inscricao-tecnico.sp.senai.br/"><img src=".github/curso.png" alt="Curso Desenvolvimento Web Senai" width="700"></a>
+
+# Grade Curricular
+
+UC01 - Fundamentos da Tecnologia da Informação
+UC02 - Informática Aplicada
+UC03 - Comunicação Oral e Escrita
+UC04 - Lógica de Programação
+UC05 - Fundamentos de Web Design
+UC06 - Projeto de Interface Web
+UC07 - Criação e Editoração de Multimídia
+UC08 - Estruturação de Interface Web
