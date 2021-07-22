@@ -1,6 +1,9 @@
 body {
   font-family: sans-serif;
-  background-color: #f7f7f7;
+  background-color: #fadcdd;
+  width: 996px;
+  height: 616px;
+  box-sizing: border-box;
 }
 
 .banner img {
@@ -8,16 +11,38 @@ body {
   height: auto;
 }
 
-table {
-  width: 996px;
-  height: 616px;
-}
-
-table, th, td, caption {
-  border: 1px solid black;
+table,
+th,
+td,
+caption {
+  border: 1px solid #999999;
   border-collapse: collapse;
 }
 
-th, td {
-  padding: 5px;
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 16px;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+a {
+  color: #e4494e;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+th,
+td {
+  padding: 16px;
 }
