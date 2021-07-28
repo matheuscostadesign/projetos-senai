@@ -22,9 +22,9 @@
 - UC06 - Projeto de Interface Web
 - UC07 - Criação e Editoração de Multimídia
 - UC08 - Estruturação de Interface Web
-  - Projeto: Doação de sangue (Estrutura HTML contendo imagens, títulos, formatações de texto e lista ordenada)
+  - Site Doação de sangue (Estrutura HTML contendo imagens, títulos, formatações de texto e lista ordenada)
     - https://projetos-senai.netlify.app/uc08/sa1/2-doacao_sangue/index.html
-  - Projeto: Doação de sangue (Uso de tabelas, hiperlinks e iframes)
+  - Site Doação de sangue (Uso de tabelas, hiperlinks e iframes)
     - https://projetos-senai.netlify.app/uc08/sa1/3-doacao_sangue/index.html
-  - Página: Turismo (Primeiros passos com Bootstrap)
+  - Site Turismo (Primeiros passos com Bootstrap)
     - https://projetos-senai.netlify.app/uc08/sa2/1-site-turismo/index.html
