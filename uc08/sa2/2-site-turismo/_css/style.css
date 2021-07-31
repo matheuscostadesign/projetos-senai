@@ -1,0 +1,24 @@
+table {
+  text-align: center;
+}
+
+.login {
+  margin-right: 16px;
+}
+
+.carousel-item {
+  height: 260px;
+}
+
+.carousel-item img {
+  width: 100%;
+  filter: brightness(40%);
+}
+
+h2 {
+  font-size: 80px;
+}
+
+footer {
+  height: auto;
+}
