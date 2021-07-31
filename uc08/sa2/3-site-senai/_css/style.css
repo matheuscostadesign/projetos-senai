@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.area_0 {
+    grid-area: logomarca;
+    padding: 16px;
+    background-color: #303030;
+}
+
+.area_1 {
+    grid-area: cabecalho;
+    padding: 16px;
+    background-color: #303030;
+}
+
+.area_2 {
+    grid-area: busca;
+    padding: 32px 48px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #CED4DA;
+}
+
+.area_3 {
+    grid-area: lateral-e;
+    padding: 16px;
+    background-color: #f7f7f7;
+    margin-right: 16px;
+    border-right: 1px solid #CED4DA;
+}
+
+.area_4 {
+    grid-area: conteudo-1;
+    padding: 24px 10px;
+}
+
+.area_5 {
+    grid-area: conteudo-2;
+    padding: 24px 10px;
+}
+
+.area_6 {
+    grid-area: conteudo-3;
+    padding: 24px 10px;
+}
+
+.area_7 {
+    grid-area: conteudo-4;
+    padding: 24px 10px;
+}
+
+.area_8 {
+    grid-area: rodape;
+    background-color: #074a71;
+    color: #ffffff;
+    padding: 32px 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'logomarca cabecalho cabecalho cabecalho cabecalho'
+    'busca busca busca busca busca'
+    'lateral-e conteudo-1 conteudo-1 conteudo-2 conteudo-2'
+    'lateral-e conteudo-3 conteudo-3 conteudo-4 conteudo-4'
+    'rodape rodape rodape rodape rodape';
+}
+
+.grid-container div {
+    text-align: center;
+    font-size: 20px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
