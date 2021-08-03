@@ -26,5 +26,5 @@
     - https://projetos-senai.netlify.app/uc08/sa1/2-doacao_sangue/index.html
   - Site: Doação de sangue (Uso de tabelas, hiperlinks e iframes)
     - https://projetos-senai.netlify.app/uc08/sa1/3-doacao_sangue/index.html
-  - Site: Turismo (Primeiros passos com Bootstrap)
+  - Site: Turismo (Utilizando Bootstrap)
     - https://projetos-senai.netlify.app/uc08/sa2/1-site-turismo/index.html
