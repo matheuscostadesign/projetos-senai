@@ -29,6 +29,6 @@
   - Site: Turismo (Iniciando Bootstrap)
     - https://projetos-senai.netlify.app/uc08/sa2/1-site-turismo/index.html
   - Site: Turismo (Aprimorando Bootstrap)
-    - https://projetos-senai.netlify.app/uc08/sa2/1-site-turismo/index.html
+    - https://projetos-senai.netlify.app/uc08/sa2/2-site-turismo/index.html
   - Site: Senai (Utilizando CSS Grid Layout)
     - https://projetos-senai.netlify.app/uc08/sa2/3-site-senai/index.html
