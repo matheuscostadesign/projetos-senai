@@ -6,14 +6,16 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+   <link rel="stylesheet" href="_css/style.css">
    <title>Cálculo viagens</title>
 </head>
 
 <body>
-   <div class="container">
-      <h1>Cálculo de Viagens</h1>
-      <button type="button" class="btn btn-primary">Clique aqui para fazer o orçamento</button>
-      <div class='alert alert-primary' role='alert'>Orçamento</div>
+   <img src="_img/salvador1.jpg" alt="" class="img-fluid"><br><br>
+   <h1>Cálculo de Viagens</h1>
+   <button type="button" class="btn btn-primary">Clique aqui para fazer o cálculo</button><br><br>
+   <div class='alert alert-primary' role='alert'>
+      <h2>Orçamento</h2>
    </div>
 
    <script>
@@ -25,7 +27,7 @@
          var qtdpassageiros = prompt('Insira a quantidade de passageiros:');
          var valorviagem = prompt('Insira o valor da viagem:');
          var resultado = valorviagem * qtdpassageiros;
-         var mensagem = "Orçamento <br><b>Nome do cliente:</b> " + nome + "<br>\n";
+         var mensagem = "<h2>Orçamento</h2> <br><b>Nome do cliente:</b> " + nome + "<br>\n";
          mensagem = mensagem + "<b>Valor da Viagem:</b> " + resultado;
          document.querySelector("div").innerHTML = mensagem;
       }
