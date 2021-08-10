@@ -32,3 +32,5 @@
     - https://projetos-senai.netlify.app/uc08/sa2/2-site-turismo/index.html
   - Site: Senai (Utilizando CSS Grid Layout)
     - https://projetos-senai.netlify.app/uc08/sa2/3-site-senai/index.html
+  - Projeto Integrador: Alugue Fácil
+    - https://projetos-senai.netlify.app/uc08/projeto-integrador/alugue-facil/index.html
