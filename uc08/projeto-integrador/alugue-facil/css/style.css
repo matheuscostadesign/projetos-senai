@@ -37,6 +37,13 @@ h3 {
   line-height: 41px;
 }
 
+/* Cor texto selecionado */
+
+::selection {
+  color: var(--white);
+  background-color: var(--color-primary);
+}
+
 /* Botões */
 
 .btn-cadastro {
