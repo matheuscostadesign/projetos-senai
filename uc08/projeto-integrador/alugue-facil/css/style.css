@@ -37,6 +37,13 @@ h3 {
   line-height: 41px;
 }
 
+/* ---- Imagens ---- */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* Cor texto selecionado */
 
 ::selection {
