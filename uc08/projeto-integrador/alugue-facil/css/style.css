@@ -44,6 +44,21 @@ h3 {
   background-color: var(--color-primary);
 }
 
+/* Barra de navegação */
+
+body::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: transparent;
+}
+body::-webkit-scrollbar {
+  width: 5px;
+  background-color: var(--black);
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: var(--color-primary);
+}
+
 /* Botões */
 
 .btn-cadastro {
