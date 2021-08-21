@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+#acordeon {
+    font-size: 14px; 
+    width:200px;
+}
+
+label, tr {
+    font-size: 14px; 
+    font-family: sans-serif;
+}
+
+button, input[type="button"] {
+    font-size: 20px; 
+    font-family: sans-serif;
+}
+
+table {
+    background-color: #222930;
+    padding: 2rem !important;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.btn-validar {
+    background-color: #27ae60;
+    color: #fafafa;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    width: 100%;
+    border: none;
+    
+}
+
+.btn-assinar {
+    padding: 1rem 2rem;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    width: 100%;
+    border: none;
+}
