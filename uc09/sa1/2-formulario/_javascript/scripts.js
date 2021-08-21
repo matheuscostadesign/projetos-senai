@@ -36,7 +36,7 @@ function verifica_cadastro() {
     }
 
     // Verifica mes
-    var mes = parseInt(document.getElementById("month").value) // função parseInt converte o texto digitado pelo usuario no tipo inteiro
+    var mes = parseInt(document.getElementById("month").value); // função parseInt converte o texto digitado pelo usuario no tipo inteiro
     if ((mes < 1) || (mes > 12) || (isNaN(mes))) {
         resultado = false;
     }
@@ -59,7 +59,7 @@ function verifica_cadastro() {
     // var times = document.getElementsByTagName("option");
 
     // Verifica esportes
-    var esportes = document.getElementsByTagName("sport");
+    var esportes = document.getElementsByName("sport");
     var cont_esporte = 0;
     for (var i = 0; i < esportes.length; ++i) {
         if (esportes[i].checked) {
@@ -80,7 +80,7 @@ function dados() {
 
     cadastro.nickname = document.getElementById("nickname").value;
 
-    cadastro.birth_date = document.getElementById("year").value;
+    cadastro.birth_date = document.getElementById("year").value + "-" +
         document.getElementById("month").value + "-" +
         document.getElementById("day").value;
 
@@ -102,4 +102,72 @@ function dados() {
     }
 
     return cadastro;
+}
+
+// Função verificar form
+
+function verify_form() {
+
+    var obj_form = {
+        name: "",
+        nickname: "",
+        cpf: "",
+        team_id: "",
+        sport: [],
+    }
+
+    var el_name = document.getElementById("name");
+    if (el_name.value == "")
+        return null;
+    obj_form.name = el_name.value;
+
+    var el_nickname = document.getElementById("nickname");
+    obj_form.nickname = el_nickname.value;
+
+    var el_cpf = document.getElementById("cpf");
+    obj_form.cpf = el_cpf.value;
+
+    var el_team = document.getElementById("team_id");
+    obj_form.team_id = el_team.value;
+
+    var el_sport_1 = document.getElementById("sport1");
+    if (el_sport_1.checked == true)
+        obj_form.sport.push(1);
+
+    var el_sport_2 = document.getElementById("sport2");
+    if (el_sport_2.checked == true)
+        obj_form.sport.push(2);
+
+    var el_sport_3 = document.getElementById("sport3");
+    if (el_sport_3.checked == true)
+        obj_form.sport.push(3);
+
+    var el_sport_4 = document.getElementById("sport4");
+    if (el_sport_4.checked == true)
+        obj_form.sport.push(4);
+
+    var el_sport_5 = document.getElementById("sport5");
+    if (el_sport_5.checked == true)
+        obj_form.sport.push(5);
+
+    var el_sport_6 = document.getElementById("sport6");
+    if (el_sport_6.checked == true)
+        obj_form.sport.push(6);
+
+    var el_sport_7 = document.getElementById("sport7");
+    if (el_sport_7.checked == true)
+        obj_form.sport.push(7);
+
+    if (obj_form.sport.length == 0)
+        return null;
+
+    console.log(obj_form);
+
+
+    var json = JSON.stringify(obj_form);
+    console.log(json);
+    document.write("<h1>Dados em JSON</h1>");
+    document.write(json);
+
+    return json;
 }
