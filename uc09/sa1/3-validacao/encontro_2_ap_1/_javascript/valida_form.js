@@ -77,16 +77,42 @@ function validarCelular() {
 // Validação com REGEX - Planos
 function validaPlanos() {
     let planoValue = document.getElementsByName("planos");
-    let planoCkecked = false;
+    let planoChecked = false;
     for (i = 0; i < planoValue.length; i++) {
         if (planoValue[i].checked) {
-            planoCkecked = true;
+            planoChecked = true;
         }
     }
-    if (!planoCkecked) {
+    if (!planoChecked) {
         alert("Selecione o Plano");
         return false;
     } else {
         return true;
+    }
+}
+
+// Validação com JSON - Usuário
+function validaUser() {
+    let userJSON = '{"user": "Usuario"}';
+    let vUser = JSON.parse(userJSON);
+    if (vUser.user == document.form.login.value)
+        return true;
+    else {
+        alert("Usuário Inválido!");
+        document.form.login.focus();
+        return false;
+    }
+}
+
+// Validação com JSON - Senha
+function validaPasswd() {
+    let passwdJSON = '{"passwd": "Abc$123"}';
+    let vPasswd = JSON.parse(passwdJSON);
+    if (vPasswd.passwd == document.form.senha.value)
+        return true;
+    else { 
+        alert("Senha Inválida!");
+        document.form.senha.focus();
+        return false;
     }
 }
