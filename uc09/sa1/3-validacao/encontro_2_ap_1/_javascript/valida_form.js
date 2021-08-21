@@ -20,3 +20,15 @@ function totaliza()
     document.form.total.value = total.toFixed(2);
 }
 
+// Validação com REGEX - Nome
+function validar_texto() {
+    let value = document.getElementById("texto").value;
+    let re = /^[a-zA-ZéúíóáÉÚÍÓÁèùìòàçÇÈÙÌÒÀõãñÕÃÑêûîôâÊÛÎÔÂëÿüïöäËYÜÏÖÄ\-\ \s]+$/;
+    if (!re.test(value)) {
+      // campo inválido, retorna false para o formulário não ser submetido
+      alert('Somente caracteres alfabéticos Inválido');
+      document.form.texto.focus();
+      return false;
+    }
+    return true;
+  }
