@@ -64,7 +64,7 @@ function validarEmail() {
 function validarCelular() {
     let celularValue = document.getElementById("cel").value;
     // Formato válido: (XX) XXXXX-XXXX | (ou) XXXXXXXXXXX
-    let celularRegex = /^((\([0-9]{2}\) [0-9]{5}\-[0-9]{4}) | ([0-9{11}]))$/;
+    let celularRegex = /^((\([0-9]{2}\) [0-9]{5}\-[0-9]{4})|([0-9]{11}))$/;
     if (!celularRegex.test(celularValue)) {
         alert("Celular inválido!");
         document.form.cel.focus();
@@ -115,4 +115,15 @@ function validaPasswd() {
         document.form.senha.focus();
         return false;
     }
+}
+
+// Validar todos os campos
+function validar_tudo() {
+    if (validarNome() && validarCPF() && validarEmail() && 
+    validarCelular() && validaPlanos() && validaUser && validaPasswd() ) {
+        document.getElementById("butassin").disabled = false;
+    } else {
+        document.getElementById("butassin").disabled = true;
+    }
+    return false;
 }
