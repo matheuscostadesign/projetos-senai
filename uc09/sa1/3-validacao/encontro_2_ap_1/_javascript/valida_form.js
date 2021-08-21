@@ -21,13 +21,26 @@ function totaliza()
 }
 
 // Validação com REGEX - Nome
-function validar_texto() {
-    let value = document.getElementById("texto").value;
+function validarNome() {
+    let value = document.getElementById("nome").value;
     let re = /^[a-zA-ZéúíóáÉÚÍÓÁèùìòàçÇÈÙÌÒÀõãñÕÃÑêûîôâÊÛÎÔÂëÿüïöäËYÜÏÖÄ\-\ \s]+$/;
     if (!re.test(value)) {
       // campo inválido, retorna false para o formulário não ser submetido
       alert('Somente caracteres alfabéticos Inválido');
-      document.form.texto.focus();
+      document.form.nome.focus(); // Seta o foco no input com id "nome"
+      return false;
+    }
+    return true;
+  }
+
+// Validação com REGEX - CPF
+function validar_cpf() {
+    let value = document.getElementById("cpf").value;
+    let re = /^(([0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2})|([0-9]{11}))$/;
+    if (!re.test(value)) {
+      // campo inválido, retorna false para o formulário não ser submetido
+      alert('Conteúdo de CPF Inválido');
+      document.form.cpf.focus();
       return false;
     }
     return true;
