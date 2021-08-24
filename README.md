@@ -36,3 +36,10 @@
     - https://projetos-senai.netlify.app/uc08/sa2/4-calculo-viagens/index.html
   - Projeto Integrador: Alugue Fácil
     - https://projetos-senai.netlify.app/uc08/projeto-integrador/alugue-facil/index.html
+- UC 09 - Programação Client-side
+  - Pré-cadastro de assinantes (Introdução ao Javascript)
+    - https://projetos-senai.netlify.app/uc09/sa1/1-pre-cadastro-de-assinantes/autoriza.html
+  - Formulário em Javascript
+    - https://projetos-senai.netlify.app/uc09/sa1/2-formulario/formulario.html
+  - Cadastro de assinantes (Validações JS com Regex e JSON):
+    - https://projetos-senai.netlify.app/uc09/sa1/3-cadastro-de-assinantes/cadastro.html
