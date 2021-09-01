@@ -13,19 +13,17 @@
 
 <body>
 
-    <!-- <img src="_imagens/poster.png" alt="Poster"> -->
-
     <div class="container controle-video">
         <video src="_media/surf.mp4" poster="_imagens/poster1.png" id="playerCustomizado"></video>
         <div class="botoes">
             <button type="button" class="btn btn-primary" onclick="playPause()">Play/Pause</button>
-            <button type="button" class="btn btn-primary">Ampliar</button>
-            <button type="button" class="btn btn-primary">Reduzir</button>
-            <button type="button" class="btn btn-primary">Tamanho Normal</button>
+            <button type="button" class="btn btn-primary" onclick="ampliarVideo()">Ampliar</button>
+            <button type="button" class="btn btn-primary" onclick="reduzirVideo()">Reduzir</button>
+            <button type="button" class="btn btn-primary" onclick="tamanhoNormalVideo()">Tamanho Normal</button>
             <button type="button" class="btn btn-primary" onclick="telaCheia()">Tela Cheia</button>
-            <button type="button" class="btn btn-primary">Volume +</button>
-            <button type="button" class="btn btn-primary">Volume -</button>
-            <button type="button" class="btn btn-primary">Mute</button>
+            <button type="button" class="btn btn-primary" onclick="aumentarVolume()">Volume +</button>
+            <button type="button" class="btn btn-primary" onclick="diminuirVolume()">Volume -</button>
+            <button type="button" class="btn btn-primary" onclick="mutar()">Mute</button>
         </div>
     </div>
 
