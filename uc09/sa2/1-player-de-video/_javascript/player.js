@@ -9,15 +9,15 @@ function playPause() {
 }
 
 function ampliarVideo() {
-  meuVideo.width = 800;
+  meuVideo.width = 600;
 }
 
 function reduzirVideo() {
-  meuVideo.height = 200;
+  meuVideo.width = 300;
 }
 
 function tamanhoNormalVideo() {
-  meuVideo.height = 400;
+  meuVideo.width = 712;
 }
 
 function telaCheia() {
@@ -33,5 +33,5 @@ function diminuirVolume() {
 }
 
 function mutar() {
-  meuVideo.v;
+  meuVideo.muted = true;
 }

@@ -11,20 +11,21 @@
     <link rel="stylesheet" href="_css/styles.css">
 </head>
 
-<body>
+<body class="text-center">
 
-    <div class="container controle-video">
-        <video src="_media/surf.mp4" poster="_imagens/poster1.png" id="playerCustomizado"></video>
-        <div class="botoes">
-            <button type="button" class="btn btn-primary" onclick="playPause()">Play/Pause</button>
-            <button type="button" class="btn btn-primary" onclick="ampliarVideo()">Ampliar</button>
-            <button type="button" class="btn btn-primary" onclick="reduzirVideo()">Reduzir</button>
-            <button type="button" class="btn btn-primary" onclick="tamanhoNormalVideo()">Tamanho Normal</button>
-            <button type="button" class="btn btn-primary" onclick="telaCheia()">Tela Cheia</button>
-            <button type="button" class="btn btn-primary" onclick="aumentarVolume()">Volume +</button>
-            <button type="button" class="btn btn-primary" onclick="diminuirVolume()">Volume -</button>
-            <button type="button" class="btn btn-primary" onclick="mutar()">Mute</button>
-        </div>
+
+    <video src="_media/surf.mp4" poster="_imagens/poster.png" id="playerCustomizado" width="500" height="281"></video>
+    <div class="botoes">
+        <br>
+        <button type="button" class="btn btn-success" onclick="playPause()">Play/Pause</button>
+        <button type="button" class="btn btn-primary" onclick="ampliarVideo()">Ampliar</button>
+        <button type="button" class="btn btn-primary" onclick="reduzirVideo()">Reduzir</button>
+        <button type="button" class="btn btn-light" onclick="tamanhoNormalVideo()">Tamanho Normal</button>
+        <br><br>
+        <button type="button" class="btn btn-info" onclick="telaCheia()">Tela Cheia</button>
+        <button type="button" class="btn btn-primary" onclick="aumentarVolume()">Volume +</button>
+        <button type="button" class="btn btn-primary" onclick="diminuirVolume()">Volume -</button>
+        <button type="button" class="btn btn-danger" onclick="mutar()">Mute</button>
     </div>
 
     <script src="_javascript/player.js"></script>
