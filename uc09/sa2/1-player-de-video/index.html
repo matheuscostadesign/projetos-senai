@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,14 +8,20 @@
     <title>Player de video</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="_css/styles.css">
 </head>
+
 <body>
-    
+
     <!-- <img src="_imagens/poster.png" alt="Poster"> -->
 
-    <video src="_media/surf.mp4" controls></video>
-
-    <button type="button" class="btn btn-primary">Play/Pause</button>
+    <div class="container controle-video">
+        <video src="_media/surf.mp4" controls></video>
+        <div class="botoes">
+            <button type="button" class="btn btn-primary">Play/Pause</button>
+        </div>
+    </div>
 
 </body>
+
 </html>
