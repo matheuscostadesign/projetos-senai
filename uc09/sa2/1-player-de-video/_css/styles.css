@@ -9,6 +9,10 @@ body {
   color: #fff;
 }
 
+.player {
+  padding: 2rem;
+}
+
 video {
   max-width: 100%;
 }

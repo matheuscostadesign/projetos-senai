@@ -17,7 +17,7 @@ function reduzirVideo() {
 }
 
 function tamanhoNormalVideo() {
-  meuVideo.width = 712;
+  meuVideo.width = 500;
 }
 
 function telaCheia() {
@@ -34,4 +34,8 @@ function diminuirVolume() {
 
 function mutar() {
   meuVideo.muted = true;
+}
+
+function desmutar() {
+  meuVideo.muted = false;
 }

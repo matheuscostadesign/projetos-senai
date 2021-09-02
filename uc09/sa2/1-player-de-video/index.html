@@ -6,26 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Player de video em Javascript</title>
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="_css/styles.css">
 </head>
 
 <body class="text-center">
 
+    <div class="player">
+        <video src="_media/surf.mp4" poster="_imagens/poster.png" id="playerCustomizado" width="500" height="281"
+            controls>
+        </video>
+    </div>
 
-    <video src="_media/surf.mp4" poster="_imagens/poster.png" id="playerCustomizado" width="500" height="281"></video>
-    <div class="botoes">
-        <br>
+    <div class="botoes ">
         <button type="button" class="btn btn-success" onclick="playPause()">Play/Pause</button>
-        <button type="button" class="btn btn-primary" onclick="ampliarVideo()">Ampliar</button>
-        <button type="button" class="btn btn-primary" onclick="reduzirVideo()">Reduzir</button>
+        <button type="button" class="btn btn-info" onclick="telaCheia()">Tela Cheia</button><br><br>
         <button type="button" class="btn btn-light" onclick="tamanhoNormalVideo()">Tamanho Normal</button>
-        <br><br>
-        <button type="button" class="btn btn-info" onclick="telaCheia()">Tela Cheia</button>
+        <button type="button" class="btn btn-primary" onclick="reduzirVideo()">Reduzir</button>
+        <button type="button" class="btn btn-primary" onclick="ampliarVideo()">Ampliar</button><br><br>
         <button type="button" class="btn btn-primary" onclick="aumentarVolume()">Volume +</button>
         <button type="button" class="btn btn-primary" onclick="diminuirVolume()">Volume -</button>
-        <button type="button" class="btn btn-danger" onclick="mutar()">Mute</button>
+        <button type="button" class="btn btn-danger" onclick="mutar()">Mutar</button>
+        <button type="button" class="btn btn-danger" onclick="desmutar()">Desmutar</button>
     </div>
 
     <script src="_javascript/player.js"></script>
