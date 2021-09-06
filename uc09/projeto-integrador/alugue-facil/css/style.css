@@ -77,8 +77,8 @@ textarea:focus {
 
 /* Botões */
 
-.btn-cadastro {
-  padding: 0.5rem 3rem;
+.btn-default {
+  padding: 0.5rem 2rem;
   margin-right: 1rem;
 }
 
@@ -130,6 +130,10 @@ nav ul li {
   padding: 4rem 0;
 }
 
+.s-anuncios .anuncio {
+  padding: 2rem 0;
+}
+
 .s-anuncios h2 {
   margin-bottom: 3rem;
 }
@@ -137,12 +141,20 @@ nav ul li {
 .s-anuncios h3 {
   margin: 0;
   color: var(--gray-color-50);
+  font-size: 1.1rem;
 }
 
 .s-anuncios p {
   color: var(--gray-color-100);
-  font-size: 24px;
+  font-size: 1.2rem;
   font-weight: 600;
+}
+
+.s-anuncios .anuncio img {
+  width: 302px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
 /* Footer */
