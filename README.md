@@ -43,3 +43,7 @@
     - https://projetos-senai.netlify.app/uc09/sa1/2-formulario/formulario.html
   - Cadastro de assinantes (Validações JS com Regex e JSON):
     - https://projetos-senai.netlify.app/uc09/sa1/3-cadastro-de-assinantes/cadastro.html
+  - Projeto Integrador: Página de cadastro de clientes (Consumindo API Correios ViaCEP)
+    - https://projetos-senai.netlify.app/uc09/projeto-integrador/formulario-cadastro-cliente/ 
+  - Projeto Integrador: Alugue Fácil
+    - https://projetos-senai.netlify.app/uc09/projeto-integrador/alugue-facil/
