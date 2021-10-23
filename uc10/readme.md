@@ -89,10 +89,20 @@ CREATE TABLE jogos (
 );
 
 /*Criação da tabela estadio*/
-CREATE TABLE estadio (
-idestadio INTEGER PRIMARY KEY,
-descricao VARCHAR(45),
-localizacao VARCHAR(45),
-capacidade INTEGER
+  CREATE TABLE estadio (
+  idestadio INTEGER PRIMARY KEY,
+  descricao VARCHAR(45),
+  localizacao VARCHAR(45),
+  capacidade INTEGER
+);
+
+/*Criação da tabela jogador*/
+CREATE TABLE jogador (
+  idjogador INTEGER PRIMARY KEY,
+  nome VARCHAR(45),
+  camisa INTEGER,
+  posicao VARCHAR(45),
+  pais_idpais INTEGER,
+  situacao CHAR(1)
 );
 ```
