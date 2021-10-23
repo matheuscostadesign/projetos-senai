@@ -493,3 +493,19 @@ insert into estadio values(5100,'Khalifa International','Doha',50000);
 insert into estadio values(5200,'Al Thumama Stadium','Al Thumama',40000);
 insert into estadio values(5300,'Al Janoub Stadium','Al-Wakrah',40000);
 ```
+
+### Selects (Consultando os dados)
+
+```sql
+/* Mostra as colunas da tabela */
+desc pais;
+
+/* Mostra todos os dados da tabela */
+select * from pais;
+
+/*  Select para trazer o nome de todos os jogadores titulares, por seleção */
+select p.selecao, j.nome as jogador from jogador j 
+inner join pais p on j.pais_idpais = p.idpais
+where j.situacao = 'T'
+order by p.selecao, j.nome;
+```
