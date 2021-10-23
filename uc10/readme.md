@@ -13,6 +13,7 @@ create table produto {
   codProduto integer not null primary key,
   descProduto varchar(100) not null
 }
+
 ## Alteração tabela
 alter table <nometable> add column <nomecoluna> <tipo tamanho> <obrigatoriedade>
 alter table <nometabela> rename to <novonometabela>
@@ -27,6 +28,21 @@ drop table <nometable>
 select * from table
 ```
 
-Triggers
+## Triggers
 - Gatilhos disparados no BD quando alguma operãção de manipulação é executada
 
+```sql
+create trigger <nome_trigger> <momento_de_execucao> <evento_disparo> on <nome_tabela> for each row
+begin
+<comandos>
+end
+```
+
+## DQL (Data Query Language)
+```sql
+select * from aluno
+
+select <coluna>
+from <nometabela1, nometabela2>
+where <condicoes>
+```
