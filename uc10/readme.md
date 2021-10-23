@@ -120,4 +120,13 @@ CREATE TABLE substituicao (
   jogador_idjogador_entra INTEGER,
   tempo VARCHAR(45)
 );
+
+/*Criação da tabela cartao*/
+CREATE TABLE cartao (
+jogos_idrodada INTEGER,
+jogador_idjogador INTEGER,
+amarelo TINYINT,
+vermelho TINYINT,
+tempo VARCHAR(45)
+);
 ```
