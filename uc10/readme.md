@@ -105,4 +105,11 @@ CREATE TABLE jogador (
   pais_idpais INTEGER,
   situacao CHAR(1)
 );
+
+/*Criação da tabela gols*/
+CREATE TABLE gols (
+  jogo_idrodada INTEGER,
+  jogador_idjogador INTEGER,
+  tempo VARCHAR(45)
+);
 ```
