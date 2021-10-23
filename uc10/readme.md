@@ -46,3 +46,30 @@ select <coluna>
 from <nometabela1, nometabela2>
 where <condicoes>
 ```
+
+---
+
+### Criação do banco "COPA_DO_MUNDO"
+
+```sql
+/*Criação do banco de dados*/
+CREATE DATABASE copa_mundo;
+
+/*Utilizando o banco*/
+USE copa_mundo;
+
+/*Criação da tabela pais*/
+CREATE TABLE pais (
+idpais INTEGER PRIMARY KEY,
+selecao VARCHAR(45),
+continente VARCHAR(45),
+tecnico VARCHAR(45),
+pontos INTEGER,
+vitorias INTEGER,
+empates INTEGER,
+derrotas INTEGER,
+golspro INTEGER,
+golscontra INTEGER,
+grupo_idgrupo CHAR(1)
+)
+```
