@@ -112,4 +112,12 @@ CREATE TABLE gols (
   jogador_idjogador INTEGER,
   tempo VARCHAR(45)
 );
+
+/*Criação da tabela substituicao*/
+CREATE TABLE substituicao (
+  jogos_idrodada INTEGER,
+  jogador_idjogador_sai INTEGER,
+  jogador_idjogador_entra INTEGER,
+  tempo VARCHAR(45)
+);
 ```
