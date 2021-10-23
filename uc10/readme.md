@@ -87,4 +87,12 @@ CREATE TABLE jogos (
   gols_idpais_2 INTEGER,
   publico INTEGER
 );
+
+/*Criação da tabela estadio*/
+CREATE TABLE estadio (
+idestadio INTEGER PRIMARY KEY,
+descricao VARCHAR(45),
+localizacao VARCHAR(45),
+capacidade INTEGER
+);
 ```
