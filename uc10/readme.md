@@ -1,5 +1,8 @@
 # UC 10 - Criação e Manipulação de Banco de Dados
 
+- SQBD: Sistema gerenciador de banco de dados
+- Exemplo: MySQL Workbench
+
 ## DDL
 
 ```sql
@@ -60,16 +63,16 @@ USE copa_mundo;
 
 /*Criação da tabela pais*/
 CREATE TABLE pais (
-idpais INTEGER PRIMARY KEY,
-selecao VARCHAR(45),
-continente VARCHAR(45),
-tecnico VARCHAR(45),
-pontos INTEGER,
-vitorias INTEGER,
-empates INTEGER,
-derrotas INTEGER,
-golspro INTEGER,
-golscontra INTEGER,
-grupo_idgrupo CHAR(1)
-)
+  idpais INTEGER PRIMARY KEY,
+  selecao VARCHAR(45),
+  continente VARCHAR(45),
+  tecnico VARCHAR(45),
+  pontos INTEGER,
+  vitorias INTEGER,
+  empates INTEGER,
+  derrotas INTEGER,
+  golspro INTEGER,
+  golscontra INTEGER,
+  grupo_idgrupo CHAR(1)
+);
 ```
