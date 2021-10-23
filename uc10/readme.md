@@ -75,4 +75,16 @@ CREATE TABLE pais (
   golscontra INTEGER,
   grupo_idgrupo CHAR(1)
 );
+
+/*Criação da tabela jogos*/
+CREATE TABLE jogos (
+  idrodada INTEGER PRIMARY KEY,
+  data DATETIME,
+  estadio_idestadio INTEGER,
+  pais_idpais_1 INTEGER,
+  pais_idpais_2 INTEGER,
+  gols_idpais_1 INTEGER,
+  gols_idpais_2 INTEGER,
+  publico INTEGER
+);
 ```
