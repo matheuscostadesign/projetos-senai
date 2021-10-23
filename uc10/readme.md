@@ -123,10 +123,16 @@ CREATE TABLE substituicao (
 
 /*Criação da tabela cartao*/
 CREATE TABLE cartao (
-jogos_idrodada INTEGER,
-jogador_idjogador INTEGER,
-amarelo TINYINT,
-vermelho TINYINT,
-tempo VARCHAR(45)
+  jogos_idrodada INTEGER,
+  jogador_idjogador INTEGER,
+  amarelo TINYINT,
+  vermelho TINYINT,
+  tempo VARCHAR(45)
+);
+
+/*Criação da tabela grupo*/
+CREATE TABLE grupo (
+  idgrupo CHAR(1) PRIMARY KEY,
+  descricao VARCHAR(45)
 );
 ```
