@@ -14,3 +14,9 @@ select selecao, tecnico from pais
 where pontos = 0
 and continente = 'Europa'
 
+/* Select em qualquer parte do nome */
+select j.nome, p.selecao, j.posicao from jogador j
+inner join pais p on j.pais_idpais = p.idpais
+where j.nome like "%a%"
+and p.selecao like "Brasil"
+order by p.selecao, j.nome;

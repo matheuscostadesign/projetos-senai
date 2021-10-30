@@ -8,6 +8,6 @@ https://www.memphisnetwork.com.br/como-manter-um-banco-de-dados-seguro-conforme-
 
 Manter as informações de um banco de dados seguras é extremamente importante nos dias atuais. A fim de evitar invasões é necessário garantir as seguintes boas práticas:
 
-1. Manter o servidor em um local seguro
+1. Manter o servidor em um local físico seguro, monitorado por câmeras, refrigerado e com acesso restrito (somente pessoas autorizadas)
 1. Criptografar os dados
 2. Manter  
