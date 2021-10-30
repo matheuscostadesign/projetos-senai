@@ -4,6 +4,8 @@ desc pais;
 /* Mostra todos os dados da tabela */
 select * from pais;
 
+/* Atalho MySQL para executar script (Ctrl + Enter) */
+
 /* ---------------------------------------- */;
 
 /* Nome de todos os jogadores titulares, por seleção */
