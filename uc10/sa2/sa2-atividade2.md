@@ -16,3 +16,7 @@ A fim de evitar possíveis ataques a base de dados e invasões de pessoas mal-in
 5. Restringir o acesso ao banco para somente usuários avançados e que haja permissões de acesso definidas por usuário;
 6. Manter os dados criptografados para dificultar o acesso as informações, caso elas forem vazadas;
 7. Separar as bases de dados de produção (cliente final) e homologação (testes);
+
+
+// 
+Como o Rogério comentou, devido a vigência este ano da Lei Geral de Proteção de Dados (LGPD) a questão da segurança dos dados ficou
