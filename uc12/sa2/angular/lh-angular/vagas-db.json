@@ -1,0 +1,24 @@
+{
+	"vagas": [{
+			"id": 1,
+			"nome": "Desenvolvedor Frontend",
+			"foto": "foto1.jpg",
+			"descricao": "Trabalhar com Spring Boot",
+			"salario": 5000
+		},
+		{
+			"id": 2,
+			"nome": "Desenvolvedor Backend",
+			"foto": "foto2.jpg",
+			"descricao": "Trabalhar com Spring Boot",
+			"salario": 7000
+		},
+		{
+			"id": 3,
+			"nome": "Desenvolvedor Fullstack",
+			"foto": "foto3.jpg",
+			"descricao": "Trabalhar com Spring Boot",
+			"salario": 10000
+		}
+	]
+}
