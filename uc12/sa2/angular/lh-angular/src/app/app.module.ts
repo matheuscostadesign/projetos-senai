@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { MuralVagasComponent } from './mural-vagas/mural-vagas.component';
@@ -10,7 +11,8 @@ import { MuralVagasComponent } from './mural-vagas/mural-vagas.component';
     MuralVagasComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
