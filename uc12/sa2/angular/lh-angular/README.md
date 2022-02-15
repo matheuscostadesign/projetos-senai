@@ -9,3 +9,11 @@ https://angular.io/guide/setup-local
 ## Executar aplicação
 
 `ng serve`
+
+## Servidor JSON
+
+`npm install -g json-server`
+
+## Rodar JSON Server
+
+`json-server --watch vagas-db.json`
