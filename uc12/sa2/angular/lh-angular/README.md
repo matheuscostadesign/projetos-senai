@@ -1,13 +1,18 @@
 # Como executar o projeto?
 
-### 1) Executar servidor JSON
+### 1) Instalar as dependências
 
-- Abrir terminal e digital comando abaixo:
+- Abrir Terminal/CMD/Prompt de Comando e digital comando abaixo:
+  `npm install`
+
+### 2) Executar servidor JSON
+
+- No mesmo terminal digitar comando:
   `json-server --watch vagas-db.json`
 
-### 2) Executar aplicação Angular
+### 3) Executar aplicação Angular
 
-- Abrir outro terminal e digital comando abaixo:
+- Abrir nova aba no terminal e digital comando:
   `ng serve`
 
 ---
@@ -18,13 +23,17 @@
 
 `npm install -g @angular/cli`
 
-### Servidor JSON
+### Instalar servidor JSON
 
 `npm install -g json-server`
 
 ### Criando componente
 
 `ng g c rodape`
+
+### Gerar para produção
+
+`ng build`
 
 ### Referencias
 
