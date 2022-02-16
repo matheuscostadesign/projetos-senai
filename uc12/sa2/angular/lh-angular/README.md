@@ -1,19 +1,31 @@
-# Projeto em Angular
+# Como executar o projeto?
 
-https://angular.io/guide/setup-local
+### 1) Executar servidor JSON
 
-## Instalar Angular
+- Abrir terminal e digital comando abaixo:
+  `json-server --watch vagas-db.json`
+
+### 2) Executar aplicação Angular
+
+- Abrir outro terminal e digital comando abaixo:
+  `ng serve`
+
+---
+
+# Comandos de instalação
+
+### Instalar Angular
 
 `npm install -g @angular/cli`
 
-## Executar aplicação
-
-`ng serve`
-
-## Servidor JSON
+### Servidor JSON
 
 `npm install -g json-server`
 
-## Rodar JSON Server
+### Criando componente
 
-`json-server --watch vagas-db.json`
+`ng g c rodape`
+
+### Referencias
+
+- https://angular.io/guide/setup-local

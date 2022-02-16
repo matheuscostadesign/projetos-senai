@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Vaga } from '../models/Vagas.model';
 import { VagasService } from '../vagas.service';
+import { Vaga } from '../models/Vagas.model';
 
 @Component({
   selector: 'app-mural-vagas',
@@ -17,12 +17,12 @@ export class MuralVagasComponent implements OnInit {
     this.listarVagas();
   }
 
-  listarVagas() {
+  listarVagas(){
     this._vagasService.getVagas()
       .subscribe(
         retornaVaga => {
           this.vagas = retornaVaga.map(
-            item => {
+            item=>{
               return new Vaga(
                 item.id,
                 item.nome,
@@ -35,5 +35,4 @@ export class MuralVagasComponent implements OnInit {
         }
       )
   }
-
 }

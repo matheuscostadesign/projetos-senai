@@ -1,5 +1,8 @@
 .lista-vagas {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
   gap: 16px;
+  padding: 32px 0;
 }
