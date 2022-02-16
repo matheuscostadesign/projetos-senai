@@ -2,24 +2,38 @@
   "vagas": [
     {
       "id": 1,
-      "nome": "Desenvolver Front End Jr",
+      "nome": "Dev Frontend",
       "foto": "foto1.jpg",
-      "descricao": "Trabalhar com Angular",
+      "descricao": "React e Angular",
       "salario": 5000
     },
     {
       "id": 2,
-      "nome": "Desenvolver BackEnd Pleno",
+      "nome": "Dev Backend",
       "foto": "foto2.jpg",
-      "descricao": "Trabalhar com Spring Boot",
+      "descricao": "NodeJS",
       "salario": 7000
     },
     {
       "id": 3,
-      "nome": "Desenvolver Fullstack Senior",
+      "nome": "Dev Fullstack",
       "foto": "foto3.jpg",
-      "descricao": "Trabalhar com Angular e Spring",
+      "descricao": "React e NodeJS",
       "salario": 10000
+    },
+    {
+      "id": "4",
+      "nome": "UX/UI Designer",
+      "foto": "foto4.jpg",
+      "descricao": "Figma",
+      "salario": "3500"
+    },
+    {
+      "id": "5",
+      "nome": "Analista de Suporte",
+      "foto": "foto4.jpg",
+      "descricao": "Atender clientes",
+      "salario": "1800"
     }
   ]
 }
