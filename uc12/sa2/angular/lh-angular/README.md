@@ -1,16 +1,20 @@
 # Como executar o projeto?
 
-### 1) Instalar as dependências
+### 1) Clonar o repositório
+
+`git clone url`
+
+### 2) Instalar as dependências
 
 - Abrir Terminal/CMD/Prompt de Comando e digital comando abaixo:
-  `npm install`
+  `npm install --save-dev`
 
-### 2) Executar servidor JSON
+### 3) Executar servidor JSON
 
 - No mesmo terminal digitar comando:
   `json-server --watch vagas-db.json`
 
-### 3) Executar aplicação Angular
+### 4) Executar aplicação Angular
 
 - Abrir nova aba no terminal e digital comando:
   `ng serve`
