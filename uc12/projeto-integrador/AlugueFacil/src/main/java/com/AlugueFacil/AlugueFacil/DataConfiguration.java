@@ -18,7 +18,7 @@ public class DataConfiguration {
 		dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
 		dataSource.setUrl("jdbc:mysql://localhost:3306/AlugueFacil?useTimezone=true&serverTimezone=UTC"); // bd aluguefacil
 		dataSource.setUsername("root"); // usuário banco mysql
-		dataSource.setPassword("admin"); // senha banco
+		dataSource.setPassword("123456"); // senha banco
 		return dataSource;
 	}
 	

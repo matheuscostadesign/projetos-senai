@@ -17,8 +17,7 @@ import com.AlugueFacil.AlugueFacil.repository.AnuncioRepository;
 public class AnuncioController {
 	
 	private AnuncioRepository ar;
-	
-	// Cadastrar Anuncio
+
 	@RequestMapping(value = "/cadastrarAnuncio", method = RequestMethod.GET)
 	public String form() {
 		return "anuncio/formAnuncio";
