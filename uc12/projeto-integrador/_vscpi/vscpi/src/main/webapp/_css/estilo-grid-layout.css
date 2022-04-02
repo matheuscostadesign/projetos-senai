@@ -1,0 +1,65 @@
+
+
+.area_0 { grid-area: foto-perfil; }
+
+.area_1 { grid-area: nome-barra; }
+
+.area_2 { grid-area: logo-site; }
+
+.area_3 { grid-area: carrossel; }
+
+.area_4 { grid-area: menu-e; text-align: left; }
+
+.area_5 { grid-area: p-gold; }
+
+.area_6 { grid-area: crie-ja; }
+
+.area_7 { grid-area: menu-d; }
+
+.area_8 { grid-area: aulas; }
+
+.area_9 { grid-area: rodape; }
+
+ 
+
+.grid-container {
+
+  display: grid;
+
+  grid-template-areas:
+
+    'foto-perfil nome-barra nome-barra nome-barra logo-site'
+
+    'carrossel carrossel carrossel carrossel carrossel'
+
+      'menu-e p-gold crie-ja crie-ja menu-d'
+
+      'menu-e p-gold crie-ja crie-ja menu-d'
+     
+      'menu-e aulas aulas aulas menu-d'
+
+      'menu-e aulas aulas aulas menu-d'
+     
+    'rodape rodape rodape rodape rodape';
+
+  grid-gap: 5px;
+
+  background-color: rgb(255, 255, 255);
+
+  padding: 5px;
+
+}
+
+ 
+
+.grid-container div {
+
+  background-color: LightGray;
+
+  text-align: center;
+
+  padding: 20px 0;
+
+  font-size: 30px;
+
+}
