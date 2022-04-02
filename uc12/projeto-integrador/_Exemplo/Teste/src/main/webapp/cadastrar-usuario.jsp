@@ -103,12 +103,19 @@
         </div>
     </section>
     
-    <section class="mt-5 mb-5 text-center">
+    <section class="mt-5 mb-5 ">
     	<div class="container pt-5 pb-5">
-	    	<h2>Cadastre-se!</h2><br>
-	    	<p>Clique no botão abaixo para criar seu usuário:</p>
-	    	<a href="cadastrar-usuario.jsp" class="btn btn-success btn-default">Cadastre-se</a>
-    	<div>
+    	<div class="form-cadastro">
+
+    	<h2>Cadastrar novo usuário</h2><br>
+		<form action="cadastrar-usuario-ok.jsp" method="post" class="text-center">
+			<input placeholder="Nome" type="text" name="nm" required maxlength=45 class="form-control"><br>
+			<input placeholder="Email" type="text" name="em" required maxlength=45 class="form-control"><br>
+			<input placeholder="Senha" type="password" name="sen" maxlength=45 class="form-control"><br>
+			<button class="btn btn-success btn-default" type="submit">Cadastrar agora!</button>
+		</form>
+    	</div>
+   
     </section>
 
     <footer>
