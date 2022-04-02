@@ -36,7 +36,7 @@
     - https://projetos-senai.netlify.app/uc08/sa2/4-calculo-viagens/index.html
   - Projeto Integrador: Alugue Fácil
     - https://projetos-senai.netlify.app/uc08/projeto-integrador/alugue-facil/index.html
-- UC 09 - Programação Client-side
+- UC09 - Programação Client-side
   - Pré-cadastro de assinantes (Introdução ao Javascript)
     - https://projetos-senai.netlify.app/uc09/sa1/1-pre-cadastro-de-assinantes/autoriza.html
   - Formulário em Javascript
@@ -48,3 +48,8 @@
   - Projeto Integrador: Alugue Fácil
     - https://projetos-senai.netlify.app/uc09/projeto-integrador/alugue-facil/
 - UC10 - Criação e Manipulação de Banco de Dados
+- UC11 - Modelagem de Sistemas
+- UC12 - Desenvolvimento de Sistemas Web
+- UC13 - Teste de Sistemas
+- UC14 - Implantação de Sistemas
+- UC15 - Manutenção de Sistemas
